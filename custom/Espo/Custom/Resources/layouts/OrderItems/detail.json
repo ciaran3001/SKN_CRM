@@ -1,0 +1,24 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "itemType"
+                }
+            ],
+            [
+                {
+                    "name": "price"
+                },
+                {
+                    "name": "sellPrice"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Overview"
+    }
+]

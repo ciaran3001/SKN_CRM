@@ -1,0 +1,11 @@
+[
+    {
+        "name": "deliveryDate"
+    },
+    {
+        "name": "total"
+    },
+    {
+        "name": "status"
+    }
+]

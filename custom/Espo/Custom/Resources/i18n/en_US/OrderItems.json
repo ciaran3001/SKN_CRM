@@ -1,0 +1,26 @@
+{
+    "fields": {
+        "invoices": "Invoices",
+        "price": "Buy Price",
+        "priceCurrency": "Price (Currency)",
+        "priceConverted": "Price (Converted)",
+        "itemType": "Item Type",
+        "sellPrice": "Sell Price",
+        "sellPriceCurrency": "Sell Price (Currency)",
+        "sellPriceConverted": "Sell Price (Converted)"
+    },
+    "links": {
+        "invoices": "Invoices"
+    },
+    "labels": {
+        "Create OrderItems": "Create OrderItems"
+    },
+    "options": {
+        "itemType": {
+            "": "",
+            "Paper": "Paper",
+            "Bread": "Bread",
+            "Milk": "Milk"
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "labels": {
+        "Create Invoice": "Create Invoices"
+    },
+    "fields": {
+        "account": "Account",
+        "total": "Total",
+        "totalCurrency": "Total (Currency)",
+        "totalConverted": "Total (Converted)",
+        "orderItemss": "Order Itemss",
+        "deliveryDate": "Delivery Date",
+        "status": "Status"
+    },
+    "links": {
+        "account": "Account",
+        "orderItemss": "Order Itemss"
+    },
+    "options": {
+        "status": {
+            "": "",
+            "Ordered": "Ordered",
+            "Delivered": "Delivered",
+            "Paid": "Paid"
+        }
+    }
+}

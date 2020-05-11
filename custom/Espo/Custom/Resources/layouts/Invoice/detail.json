@@ -1,0 +1,24 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "account"
+                },
+                {
+                    "name": "deliveryDate"
+                }
+            ],
+            [
+                {
+                    "name": "total"
+                },
+                {
+                    "name": "status"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Overview"
+    }
+]

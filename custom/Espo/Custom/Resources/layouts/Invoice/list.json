@@ -1,0 +1,15 @@
+[
+    {
+        "name": "account"
+    },
+    {
+        "name": "total"
+    },
+    {
+        "name": "deliveryDate"
+    },
+    {
+        "name": "name",
+        "link": true
+    }
+]

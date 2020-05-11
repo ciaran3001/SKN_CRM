@@ -1,0 +1,13 @@
+{
+    "labels": {
+        "Create Account": "Create Customer"
+    },
+    "fields": {
+        "invoices": "Invoices",
+        "orders": "Orderss"
+    },
+    "links": {
+        "invoices": "Invoices",
+        "orders": "Orderss"
+    }
+}

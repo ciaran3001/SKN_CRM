@@ -1,0 +1,10 @@
+{
+    "scopeNames": {
+        "Invoice": "Invoice",
+        "OrderItems": "OrderItems"
+    },
+    "scopeNamesPlural": {
+        "Invoice": "Invoices",
+        "OrderItems": "OrderItemses"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "controller": "controllers/record",
+    "boolFilterList": [
+        "onlyMy"
+    ],
+    "color": "#367a24",
+    "iconClass": "fas fa-file-invoice",
+    "kanbanViewMode": false
+}

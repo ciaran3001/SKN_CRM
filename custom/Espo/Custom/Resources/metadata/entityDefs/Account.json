@@ -1,0 +1,31 @@
+{
+    "collection": {
+        "orderBy": "createdAt",
+        "order": "desc",
+        "textFilterFields": [
+            "name",
+            "emailAddress"
+        ],
+        "fullTextSearch": false,
+        "countDisabled": false
+    },
+    "fields": {
+        "invoices": {
+            "type": "linkMultiple",
+            "layoutDetailDisabled": false,
+            "layoutMassUpdateDisabled": false,
+            "noLoad": false,
+            "importDisabled": false,
+            "isCustom": true
+        }
+    },
+    "links": {
+        "invoices": {
+            "type": "hasMany",
+            "foreign": "account",
+            "entity": "Invoice",
+            "audited": false,
+            "isCustom": true
+        }
+    }
+}

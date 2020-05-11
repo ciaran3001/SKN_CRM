@@ -1,0 +1,14 @@
+{
+    "tasks": {
+        "disabled": true
+    },
+    "default": {
+        "disabled": true
+    },
+    "history": {
+        "disabled": true
+    },
+    "activities": {
+        "disabled": true
+    }
+}

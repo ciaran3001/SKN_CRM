@@ -1,0 +1,9 @@
+[
+    {
+        "name": "orders",
+        "style": "success"
+    },
+    {
+        "name": "invoices"
+    }
+]
