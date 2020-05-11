@@ -24778,5 +24778,21 @@ return array (
       ),
     ),
   ),
+  'formula' => 
+  array (
+    'Account' => 
+    array (
+      'beforeSaveCustomScript' => NULL,
+    ),
+    'Invoice' => 
+    array (
+      'beforeSaveCustomScript' => '$deliveryDate = entity\\attribute(\'accountName\');
+$accountName = entity\\attribute(\'deliveryDate\');
+
+$test = " ..";
+
+name = string\\concatenate("Invoice for ", accountName, " on ",deliveryDate);',
+    ),
+  ),
 );
 ?>

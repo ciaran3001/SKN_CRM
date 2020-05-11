@@ -20126,6 +20126,19 @@ return (object) [
                 4 => '#D4729B'
             ]
         ]
+    ],
+    'formula' => (object) [
+        'Account' => (object) [
+            'beforeSaveCustomScript' => NULL
+        ],
+        'Invoice' => (object) [
+            'beforeSaveCustomScript' => '$deliveryDate = entity\\attribute(\'accountName\');
+$accountName = entity\\attribute(\'deliveryDate\');
+
+$test = " ..";
+
+name = string\\concatenate("Invoice for ", accountName, " on ",deliveryDate);'
+        ]
     ]
 ];
 ?>

@@ -1,6 +1,6 @@
 <?php
 return [
-    'cacheTimestamp' => 1589235893,
+    'cacheTimestamp' => 1589241012,
     'database' => [
         'driver' => 'pdo_mysql',
         'host' => 'localhost',
@@ -191,6 +191,20 @@ return [
         
     ],
     'companyLogoId' => '5eb9c49a1482f5ce7',
-    'companyLogoName' => 'skn.png'
+    'companyLogoName' => 'skn.png',
+    'maintenanceMode' => false,
+    'cronDisabled' => false,
+    'emailAddressIsOptedOutByDefault' => false,
+    'cleanupDeletedRecords' => false,
+    'addressCountryList' => [
+        
+    ],
+    'addressCityList' => [
+        
+    ],
+    'addressStateList' => [
+        
+    ],
+    'fiscalYearShift' => 0
 ];
 ?>

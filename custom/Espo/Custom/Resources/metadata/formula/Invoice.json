@@ -1,0 +1,3 @@
+{
+    "beforeSaveCustomScript": "$deliveryDate = entity\\attribute('accountName');\n$accountName = entity\\attribute('deliveryDate');\n\n$test = \" ..\";\n\nname = string\\concatenate(\"Invoice for \", accountName, \" on \",deliveryDate);"
+}
